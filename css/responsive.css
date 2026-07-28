@@ -1,0 +1,157 @@
+@media (max-width: 992px) {
+
+    .featuredBooksSection .booksGrid .bookCard,
+    .booksSection #booksContainer .bookCard,
+    .searchSection #booksContainer .bookCard {
+        width: 30%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* Navbar */
+    .navbar-brand {
+        margin-left: 10px !important;
+    }
+
+    .favoriteContainer {
+        margin-top: 10px;
+    }
+
+    /* Hero */
+    .heroSection {
+        height: auto;
+        padding: 60px 20px;
+    }
+
+    .heroSection h2 {
+        font-size: 26px;
+    }
+
+    .heroSection p {
+        font-size: 15px;
+    }
+
+    /* Featured / Explore / Search book grids */
+    .featuredBooksSection .booksGrid,
+    .booksSection #booksContainer,
+    .searchSection #booksContainer {
+        margin: 0 15px;
+        padding: 20px;
+        justify-content: center;
+    }
+
+    .featuredBooksSection .booksGrid .bookCard,
+    .booksSection #booksContainer .bookCard,
+    .searchSection #booksContainer .bookCard {
+        width: 45%;
+        height: auto;
+    }
+
+    .featuredBooksSection .booksGrid .bookCard img,
+    .booksSection #booksContainer .bookCard img,
+    .searchSection #booksContainer .bookCard img {
+        height: 200px;
+    }
+
+    /* Reading Journey cards */
+    .readingJourneySection .sectionContainer .featureCards .featureCard {
+        width: 85%;
+    }
+
+    /* Explore category cards */
+    .exploreSection .sectionContainer .categoryCards .categoryCard {
+        width: 85%;
+    }
+
+    .exploreSection .sectionContainer .booksSection .booksHeader {
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    /* Library search */
+    .searchSection .searchHeader {
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    .searchSection .searchHeader .searchDescription {
+        width: 90%;
+    }
+
+    .searchSection .searchBox {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    /* Footer */
+    .footer .footer-top {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer .footer-top h3 {
+        margin-left: 0;
+    }
+
+    .footer .footer-top .quick-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .footer .footer-top .quick-links .navigation,
+    .footer .footer-top .quick-links .explore-topics,
+    .footer .footer-top .quick-links .connect {
+        margin-right: 0;
+    }
+
+    .footer ul li {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .heroSection h2 {
+        font-size: 22px;
+    }
+
+    .heroSection .exploreBtn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .featuredBooksSection .booksGrid .bookCard,
+    .booksSection #booksContainer .bookCard,
+    .searchSection #booksContainer .bookCard {
+        width: 100%;
+    }
+
+    .readingJourneySection .sectionContainer .featureCards .featureCard {
+        width: 95%;
+    }
+
+    .exploreSection .sectionContainer .categoryCards .categoryCard {
+        width: 95%;
+    }
+
+    .searchSection .searchHeader .searchTitle {
+        font-size: 24px;
+    }
+
+    .searchSection .searchHeader .searchDescription {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .searchSection .searchBox {
+        width: 95%;
+    }
+
+    .searchSection .searchBox .searchInput {
+        font-size: 13px;
+    }
+}
